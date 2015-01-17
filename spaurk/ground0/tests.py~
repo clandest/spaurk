@@ -21,7 +21,7 @@ class PostTest(TestCase):
         all_posts = Post.objects.all()
         self.assertEquals(len(all_posts), 1)
         only_post = all_posts[0]
-        self.assertEquals(only_post, post)
+        self.asserEquals(only_post, post)
 
         # Check attributes
         self.assertEquals(only_post.title, 'My first post')
