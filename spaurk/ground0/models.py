@@ -15,7 +15,7 @@ class Artist(models.Model):
     website = models.CharField(max_length=50)
     dateTime = models.DateTimeField()
 
-    def __str__(self)
+    def __str__(self):
         return self.name
 
 class Song(models.Model):
@@ -25,5 +25,5 @@ class Song(models.Model):
     spaurkCount = models.IntegerField(default=0)
     dateTime = models.DateTimeField()
 
-    def __str__(self)
+    def __str__(self):
         return self.title
