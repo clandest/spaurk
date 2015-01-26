@@ -1,0 +1,42 @@
+body {margin: 0; padding: 0;}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: dotted;
+}
+
+.login {
+    text-align: right;
+    position: absolute;
+    right: 10px; 
+    top: 5px;
+}
+
+.ads {
+    width: 20%;
+    float: left;
+}
+
+.main {
+    width: 60%;
+    background-color: teal;
+    float: left;
+}
+
+.topList{
+    width: 20%;
+    float: left;
+}
+
+ul {
+    list-style-type:none;
+}
